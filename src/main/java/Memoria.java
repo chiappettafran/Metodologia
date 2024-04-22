@@ -9,7 +9,7 @@ import static ChatGPT.Main.sumarDigitos;
 import static Claude.SumaDigitosFactorial.factorial;
 import static Claude.SumaDigitosFactorial.sumaDigitos;
 
-public class Memoria {
+public final class Memoria {
     public static void main(String[] args) {
         MemoryMXBean mbean = ManagementFactory.getMemoryMXBean();
         MemoryUsage beforeHeapMemoryUsage = mbean.getHeapMemoryUsage();

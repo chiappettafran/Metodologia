@@ -9,6 +9,8 @@ public class Main {
 
         System.out.println((string1.charAt(0) - '0')+ (string1.charAt(1) - '0'));
 
+        Memoria memoria = new Memoria();
+
 
     }
 }
